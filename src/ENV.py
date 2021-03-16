@@ -12,3 +12,6 @@ if __name__ == "__main__":
     checkEnv()
 else:
     load()
+
+def get(key:str):
+    return os.getenv(key)

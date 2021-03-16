@@ -1,0 +1,4 @@
+so we use https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/
+for our guide here. we're using a combo of python-jose to read and make JWTs
+and also passlib[cryptography] to make hashes of plain text. never want
+to send out or store plaintext passwords.
